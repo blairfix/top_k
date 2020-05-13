@@ -2,7 +2,9 @@
 #include <queue>
 #include <vector>
 
-// top_k finds the firm sizes associated with the k individuals with largest incomes.
+// top_k finds the elements of data_vec associated with the 
+// k largest elements in sort_vec.
+// 
 // inputs:
 //     sort_vec = a vector of individual incomes
 //     data_vec = a vector of firm sizes corresponding to each individual
