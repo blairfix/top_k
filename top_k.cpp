@@ -10,13 +10,12 @@
 
 
 // [[Rcpp::depends(RcppArmadillo)]]
-// [[Rcpp::plugins(cpp11)]]
 // [[Rcpp::export]]
 
 
-arma::rowvec top_k (   const arma::vec &sort_vec,
-                        const arma::vec &data_vec,
-                        int k
+arma::rowvec top_k (const arma::vec &sort_vec,
+                    const arma::vec &data_vec,
+                    int k
                     )
 {
 
